@@ -71,6 +71,8 @@ const FILE_LOADERS = {
   '.ts': 'ts',
   '.tsx': 'tsx',
   '.mjs': 'js',
+  '.binary': 'binary',
+  '.txt': 'text'
 } as const
 
 type EXTENSIONS = keyof typeof FILE_LOADERS
