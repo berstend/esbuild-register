@@ -64,7 +64,7 @@ function patchCommonJsLoader(compile: COMPILE) {
   }
 }
 
-type LOADERS = 'js' | 'jsx' | 'ts' | 'tsx'
+type LOADERS = 'js' | 'jsx' | 'ts' | 'tsx' | 'binary' | 'text'
 const FILE_LOADERS = {
   '.js': 'js',
   '.jsx': 'jsx',
