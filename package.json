@@ -1,7 +1,7 @@
 {
   "name": "esbuild-register",
   "description": "Transpile JSX, TypeScript and esnext features on the fly with esbuild",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "register.js",
   "license": "MIT",
   "files": [
