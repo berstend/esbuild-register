@@ -6,6 +6,8 @@ declare const FILE_LOADERS: {
     readonly '.ts': "ts";
     readonly '.tsx': "tsx";
     readonly '.mjs': "js";
+    readonly '.binary': "binary";
+    readonly '.txt': "text";
 };
 declare type EXTENSIONS = keyof typeof FILE_LOADERS;
 interface RegisterOptions extends TransformOptions {

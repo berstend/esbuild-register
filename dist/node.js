@@ -4814,7 +4814,9 @@ var FILE_LOADERS = {
   ".jsx": "jsx",
   ".ts": "ts",
   ".tsx": "tsx",
-  ".mjs": "js"
+  ".mjs": "js",
+  ".binary": "binary",
+  ".txt": "text"
 };
 var DEFAULT_EXTENSIONS = Object.keys(FILE_LOADERS);
 var getLoader = (filename) => FILE_LOADERS[_path2.extname.call(void 0, filename)];
